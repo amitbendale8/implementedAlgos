@@ -12,14 +12,15 @@ public class LongestCommonSubsequence {
 	public static void main(String[] args) {
 		String input1 = "ABCDEF";
 		String input2 = "KSBSDFCWERF";
-		/*Scanner sc = new Scanner(System.in);
-		int size = sc.nextInt();
+		Scanner sc = new Scanner(System.in);
+		//int line1Size = sc.nextInt();
+		//int line2Size = sc.nextInt();
+		String line1 ="1 2 3 4 1"; //sc.nextLine();
+		String line2 = "3 4 1 2 1 3";//sc.nextLine();
+		line1 = line1.replaceAll(" ", "");
+		line2 = line2.replaceAll(" ", "");
 		
-		int[] input = new int[size];
-		for(int i=0;i<size;i++){
-			input[i] = sc.nextInt();
-		}*/
-		System.out.println(LCS(input1,input2));
+		System.out.println(LCS(line1,line2));
 
 	}
 	
